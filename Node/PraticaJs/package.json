@@ -1,0 +1,14 @@
+{
+  "name": "praticajs",
+  "version": "1.0.0",
+  "description": "Sistema de cadastrar, selecionar, atualizar e remove usuario",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katianne Araújo",
+  "license": "ISC",
+  "dependencies": {
+    "query-string": "^7.1.1"
+  }
+}

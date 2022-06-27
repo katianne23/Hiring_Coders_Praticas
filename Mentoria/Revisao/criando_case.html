@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case com JavaScript</title>
+</head>
+<body>
+    
+    <script>
+        function processa(){
+   
+        //Criando uma Variável
+        let dia = document.getElementById("dia_da_semana").value;
+
+        //Definindo a variavel no switch case
+        switch(dia){
+             // Caso 1 ou Opção 1 
+             case "1":
+                alert("Olá meu querido hoje é domingo");
+                break;
+            // Caso 2 ou Opção 2
+             case "2":
+                for(contador=0; contador<10; contador++){
+                alert("Putz hoje é segunda-feira bora trabalhar"+contador );
+                }
+                break;
+            // Caso 3 ou Opção 3
+             case "3":
+                alert("Ainda é terça ;(");
+                break;
+            // Caso 4 ou Opção 4
+             case "4":
+                alert("Hoje e Quarta falta dois dias pro final de semana");
+                break;
+            // Caso 5 ou Opção 5
+             case "5":
+                alert("Hoje e Quintaaa");
+                break;
+            // Caso 6 ou Opção 6
+             case "6":
+                alert("Graças a Deus sextouuuuuuuu");
+                break;
+            // Caso 7 ou Opção 7
+            case "7":
+                alert("Graças a Deus sextouuuuuuuu");
+                break;
+            // É quando o valor inserido não é válido
+              default:
+              alert("Este dia da semana não existe");    
+
+        }
+    }
+
+    </script>
+
+      <!--Criando um campo para chamar a nossa função-->
+      <form id="dia">
+        <label>Digite o dia da semana </label>
+        <input type="text" method="GET" name="dia_da_semana" >
+
+        <!--Criar um botão para chamar a nossa função em JavaScript-->
+        <input type="submit" onclick="processa()" value="processar">
+
+    </form>
+</body>
+</html>

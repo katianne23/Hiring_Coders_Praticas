@@ -1,0 +1,21 @@
+{
+  "name": "newsapi",
+  "version": "1.0.0",
+  "description": "APi do Sistema de noticia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "news",
+    "noticias",
+    "categorias"
+  ],
+  "author": "Katianne Araujo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  }
+}

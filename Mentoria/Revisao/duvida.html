@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laço de Repetição</title>
+</head>
+<body>
+    <!--Criando uma identificacao para o nosso paragrafo-->
+    <h1>Laço de repetição For</h1>
+    <p id="laco_for"></p>
+    <br>
+    <h1>Laço de repetição While</h1>
+    <p id="laco_while"></p>
+</body>
+
+<script>
+    //Declarando uma variavel
+    let texto="";
+    //Criando laço de repetição com for
+    for(let contador=0; contador < 10; contador++){
+        texto+="Quantidade de numeros processados: " + contador + "<br>";
+    }
+    // Direcionando o valor atribuido na variavel texto ao paragrafo
+    document.getElementById("laco_for").innerHTML=texto;
+
+    //Criando laço de repetição utilizando while
+    //Declarando uma variavel
+    var txt ='';
+    //Variavel criada para o laço de repeticao do while
+    var cont = 0;
+    while(cont < 10){
+        txt+="Número: " +cont+ "<br>";
+        cont++;
+    }
+    document.getElementById("laco_while").innerHTML=txt;
+
+
+
+
+</script>
+</html>
